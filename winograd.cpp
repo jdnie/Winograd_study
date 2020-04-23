@@ -228,5 +228,9 @@ int main(void) {
     printf("spend %ld us\n", (long)(tv2.tv_usec + 1000000 * tv2.tv_sec) - (tv1.tv_usec + 1000000 * tv1.tv_sec));
     print(y, m*m);
 
+    free(x);
+    free(w);
+    free(y);
+
     return 0;
 }
