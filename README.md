@@ -12,7 +12,7 @@ winograd乘法上的消耗减少了，内存IO上的耗时增加了，容易抵�
 
 https://gmplib.org/manual/Toom-3_002dWay-Multiplication.html
 
-<img src="toom-cook.jpeg" alt="toom-cook" style="zoom:50%;" />
+<img src="res/toom-cook.jpeg" alt="toom-cook" style="zoom:50%;" />
 
 
 
@@ -20,9 +20,9 @@ https://gmplib.org/manual/Toom-3_002dWay-Multiplication.html
 
 https://www.encyclopediaofmath.org/index.php/Winograd_small_convolution_algorithm
 
-![image-20200424153932122](image-20200424153932122.png)
+![image-20200424153932122](res/image-20200424153932122.png)
 
-<img src="crt.jpeg" alt="crt" style="zoom:50%;" />
+<img src="res/crt.jpeg" alt="crt" style="zoom:50%;" />
 
 ## 思考
 
@@ -78,4 +78,4 @@ FIR filter: AT*((G*g)(BT*d)) =
 ⎢                                 ⎥
 ⎣d[2]⋅g[0] + d[3]⋅g[1] + d[4]⋅g[2]⎦
 
-<img src="1479115435.jpg" alt="1479115435" style="zoom:50%;" />
+<img src="res/1479115435.jpg" alt="1479115435" style="zoom:50%;" />
