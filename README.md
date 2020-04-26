@@ -40,7 +40,8 @@ G、A、B实际是到另一个域的变换矩阵，变换之后卷积就可以�
 
 https://github.com/andravin/wincnn
 
-\>>> wincnn.showCookToomConvolution((0,1,-1,2),3,3)
+```python
+>>> wincnn.showCookToomConvolution((0,1,-1,2),3,3)
 
 AT = 
 ⎡1  1  1   1  0⎤
@@ -77,5 +78,6 @@ FIR filter: AT*((G*g)(BT*d)) =
 ⎢d[1]⋅g[0] + d[2]⋅g[1] + d[3]⋅g[2]⎥
 ⎢                                 ⎥
 ⎣d[2]⋅g[0] + d[3]⋅g[1] + d[4]⋅g[2]⎦
+```
 
 <img src="res/1479115435.jpg" alt="1479115435" style="zoom:50%;" />
