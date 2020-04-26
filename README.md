@@ -81,3 +81,7 @@ FIR filter: AT*((G*g)(BT*d)) =
 ```
 
 <img src="res/1479115435.jpg" alt="1479115435" style="zoom:50%;" />
+
+## 快速傅里叶变换
+
+卷积还可以用快速傅里叶变换加速计算，参考fft.py
